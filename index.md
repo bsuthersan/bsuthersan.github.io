@@ -21,6 +21,7 @@
 <p>In this short project, I scraped data about baby names and created an interactive application for comparison and exploration.</p>
 <img src="images/babynames.png?raw=true"/>
 
+---
 [More graphics and visualisation](http://example.com/)
 
 ---
