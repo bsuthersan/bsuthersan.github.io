@@ -22,7 +22,7 @@
 <img src="images/babynames.png?raw=true"/>
 
 ---
-[More graphics and visualisation](http://example.com/)
+[More graphics and visualisation](/dataandvis)
 
 ---
 
