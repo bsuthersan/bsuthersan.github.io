@@ -7,6 +7,7 @@
 [Mapping deprivation in West London using javascript](/sample_page)
 <br>
 <br>
+<p>For this project, I used data drawn from the Index of Multiple Deprivation (IDACI) to map deprivation at the LSOA level in West London.</p>
 <img src="images/WLMapping.png?raw=true"/>
 
 ---
