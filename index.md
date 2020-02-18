@@ -2,18 +2,18 @@
 
 ---
 
-### Category Name 1 
+### Graphics and visualisation
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Mapping deprivation in West London using javascript](/sample_page)
+<img src="images/WLMapping.png?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Simulating partner allocation in D3]("http://bl.ocks.org/bsuthersan/7b1184e2b955d3d7906fc902b8e2db10")
+<img src="images/Partnerallocation.png?raw=true"/>
+
+---
+[Interactive baby naming in R shiny](http://example.com/)
+
 
 ---
 
