@@ -5,6 +5,7 @@
 ### Graphics and visualisation
 
 [Mapping deprivation in West London using javascript](/sample_page)
+<br>
 <img src="images/WLMapping.png?raw=true"/>
 
 ---
