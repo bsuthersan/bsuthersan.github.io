@@ -30,7 +30,7 @@ mydata_text %>%
   ggthemes::theme_fivethirtyeight()
 ```
 
-![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot1.pdf)
+![alt text](https://raw.githubusercontent.com/bsuthersan/bsuthersan.github.io/master/images/TheOffice_Plot1.png)
 
 There are probably no real surprises for any Office fans here. Michael was basically the lead for majority of the seven seasons; he received a lot more to-camera monologues than anyone else. We also have a very clear deliniation between Michael, the immediate supporting cast (Dwight, Jim, Andy and Pam), and the rest of the cast of characters (Angela through to Meredith). 
 
@@ -55,7 +55,7 @@ mydata_text %>%
   facet_wrap(~season)
 ```
 
-![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot2.pdf)
+![alt text](https://raw.githubusercontent.com/bsuthersan/bsuthersan.github.io/master/images/TheOffice_Plot2.png)
 
 Michael, this chart shows, has always dominated the word count. Seasons 2 and 4 stand out in particular in this regard. What is interesting, though, is what is happening with primary and secondary supporting casts. For the primary supporting cast (Dwight, Jim, Andy and Pam), there a clear jump between seasons 2-4, and seasons 5 onwards, where they all start to get more words. Season 7, meanwhile, starts seeing the word count of the secondary supporting cast start to climb. This is easier to see if we group the characters.
 
@@ -78,7 +78,7 @@ character_data %>%
   ggthemes::theme_fivethirtyeight() +
   theme(legend.title = element_blank())
 ```
-![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot3.pdf)
+![alt text](https://raw.githubusercontent.com/bsuthersan/bsuthersan.github.io/master/images/TheOffice_Plot3.png)
 
 From Season 4, we start to see the word counts of both the primary and secondary characters increasing steadily; Michael's falls (and of course, doesn't exist in Seasons 8 and 9, after Steve Carrell had left the show).
 
@@ -103,7 +103,7 @@ mydata_text %>%
   theme(legend.position = "none")
 ```
 
-![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot4.pdf)
+![alt text](https://raw.githubusercontent.com/bsuthersan/bsuthersan.github.io/master/images/TheOffice_Plot4.png)
 
 For fans of the show, it might be expected that Dwight would score high on negativity, fear, anger and disgust, and lower on positivity, joy and trust - but that isn't actually the case. Indeed, looking at the plot, there doesn't seem to be much of a difference between the characters at all.
 
