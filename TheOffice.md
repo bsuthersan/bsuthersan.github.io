@@ -1,8 +1,5 @@
 ---
 title: "The Office (US) by the Data"
-output: html_notebook
-editor_options: 
-  chunk_output_type: console
 ---
 
 The Office has long been one of my favourite TV shows (and I'm one of those terrible people who love both the UK and US versions, equally). Which is why I was so excited when I saw the release of the `Schrute` package on CRAN recently. This package includes all of the script data for The US version of the Office, as well as information about the episode, season, and director. 
