@@ -30,6 +30,8 @@ mydata_text %>%
   ggthemes::theme_fivethirtyeight()
 ```
 
+![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot1.pdf)
+
 There are probably no real surprises for any Office fans here. Michael was basically the lead for majority of the seven seasons; he received a lot more to-camera monologues than anyone else. We also have a very clear deliniation between Michael, the immediate supporting cast (Dwight, Jim, Andy and Pam), and the rest of the cast of characters (Angela through to Meredith). 
 
 What about season? Andy didn't appear until about Season 3, but he still has more overall words than Pam, who was one of the originals. This made me think, do word count breakdowns change over seasons?
@@ -53,6 +55,8 @@ mydata_text %>%
   facet_wrap(~season)
 ```
 
+![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot2.pdf)
+
 Michael, this chart shows, has always dominated the word count. Seasons 2 and 4 stand out in particular in this regard. What is interesting, though, is what is happening with primary and secondary supporting casts. For the primary supporting cast (Dwight, Jim, Andy and Pam), there a clear jump between seasons 2-4, and seasons 5 onwards, where they all start to get more words. Season 7, meanwhile, starts seeing the word count of the secondary supporting cast start to climb. This is easier to see if we group the characters.
 
 ```{r}
@@ -74,6 +78,7 @@ character_data %>%
   ggthemes::theme_fivethirtyeight() +
   theme(legend.title = element_blank())
 ```
+![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot3.pdf)
 
 From Season 4, we start to see the word counts of both the primary and secondary characters increasing steadily; Michael's falls (and of course, doesn't exist in Seasons 8 and 9, after Steve Carrell had left the show).
 
@@ -98,6 +103,8 @@ mydata_text %>%
   theme(legend.position = "none")
 ```
 
+![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot4.pdf)
+
 For fans of the show, it might be expected that Dwight would score high on negativity, fear, anger and disgust, and lower on positivity, joy and trust - but that isn't actually the case. Indeed, looking at the plot, there doesn't seem to be much of a difference between the characters at all.
 
 Another tool from the tidytext package that might help us differentiate between characters, however, is term frequency-inverse document frequency, or tf-idf. The tf-idf algorthm works by looking for words which occur more frequently within a particular grouping variable (in this case, characters, but we could also examine by season or episode), but relatively rarely when compared to the rest of the data. For example, if we were looking at terms instead of words, we would expect 'that's what she said' to be rated highly for Michael.
@@ -121,6 +128,8 @@ mydata_text %>%
   coord_flip() +
   ggthemes::theme_fivethirtyeight()
 ```
+
+![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot5.pdf)
 
 Ah, much better! (Also, does anyone else not need the labels?)
 
