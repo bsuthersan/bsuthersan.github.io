@@ -28,7 +28,7 @@
 
 ### Textual Analysis
 
-- [Baby Bath Reviews](http://example.com/)
+- [Baby Bath Reviews](/babybath)
 
 ---
 
