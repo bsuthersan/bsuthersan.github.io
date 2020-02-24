@@ -129,7 +129,7 @@ mydata_text %>%
   ggthemes::theme_fivethirtyeight()
 ```
 
-![alt text](https://github.com/bsuthersan/bsuthersan.github.io/blob/master/images/TheOffice_Plot5.pdf)
+![alt text](https://raw.githubusercontent.com/bsuthersan/bsuthersan.github.io/master/images/TheOffice_Plot5.png)
 
 Ah, much better! (Also, does anyone else not need the labels?)
 
