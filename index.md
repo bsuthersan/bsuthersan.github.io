@@ -26,8 +26,9 @@
 
 ---
 
-### Textual Analysis
+### Textual Analysis and web Scraping
 
+- [Tidy Text analysis of The Office](/TheOffice)
 - [Baby Bath Reviews](/babybath)
 
 ---
